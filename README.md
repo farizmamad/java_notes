@@ -50,6 +50,7 @@ class ThreadDemo implements Runnable{
   public void run(){
     System.out.println("Running " + threadName + "...");
     // write main activity of this class here
+    System.out.println("Stopping " + threadName + "...");
   }
 }
 </pre>
@@ -78,6 +79,7 @@ class ThreadDemo extends Thread{
   public void run(){
     System.out.println("Running " + threadName + "...");
     // write main activity of this class here
+    System.out.println("Stopping " + threadName + "...");
   }
 }
 </pre>
