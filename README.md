@@ -7,7 +7,7 @@ Object-Oriented Programming secara ekstensif menggunakan object sebagai program 
 
 Ada 4 prinsip yang mendasari Object-Oriented Programming, yaitu:
 <ol>
-  <li>Abstraction : </li>
+  <li>Abstraction : adanya class menjadikan inti program yang bersifat low-level dibungkus oleh atribut atau method yang bersifat high-level. Dengan begitu, pengguna akan melihat definisi high-level yang mudah dipahami saja, tanpa perlu mengetahui definisi low-level nya </li>
   <li>Encapsulation : </li>
   <li>Inheritance : antara dua class bisa terbentuk hubungan parent-children, di mana  class children mewarisi atribut dan method dari class parent. Andaikata class children punya detil atribut atau method yang berbeda dari class parent, child bisa meng-override atribut dan method dari parent</li>
   <li>Polymorphism : banyak class bisa berbeda-beda implementasinya, walaupun memiliki atribut dan method yang serupa</li>
